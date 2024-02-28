@@ -1,12 +1,13 @@
 import { useLocation } from 'react-router-dom';
-//
+
 import {
   StyledDescr,
   StyledLinkMoviesList,
   StyledList,
   StyledListItem,
-} from './MoviesList.styled';
-import defaultPosterImg from 'images/poster.jpeg';
+} from 'components';
+
+import defaultPosterImg from 'assets/images/poster.jpeg';
 
 export const MoviesList = ({ movies }) => {
   const location = useLocation();

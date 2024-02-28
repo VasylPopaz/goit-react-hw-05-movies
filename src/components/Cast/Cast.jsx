@@ -1,17 +1,19 @@
 import { useParams } from 'react-router-dom';
-//
-import { Loader } from 'components';
-import { getMovieCastById } from 'helpers/api';
-import { useHttp } from 'hooks/useHttp';
+
 import {
+  Loader,
   CastImg,
   CastList,
   CastListItem,
   CastText,
   CastTitle,
   TextContainer,
-} from './Cast.styled';
-import defaultCastImg from 'images/oscar-award.jpg';
+} from 'components';
+
+import { getMovieCastById } from 'api';
+import { useHttp } from 'hooks';
+
+import defaultCastImg from 'assets/images/oscar-award.jpg';
 
 const Cast = () => {
   const { id } = useParams();

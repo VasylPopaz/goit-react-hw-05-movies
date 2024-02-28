@@ -1,5 +1,5 @@
 import { InfinitySpin } from 'react-loader-spinner';
-//
+
 import { Backdrop } from 'components';
 
 export const Loader = () => {

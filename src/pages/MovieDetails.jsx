@@ -1,11 +1,10 @@
 import { Suspense, useRef } from 'react';
 import { Outlet, useLocation, useParams } from 'react-router-dom';
-//
-import { BackLink, Loader, StyledTitle } from 'components';
-import MovieInfo from 'components/MovieInfo/MovieInfo';
-//
-import { getMovieDetailsById } from 'helpers/api';
-import { useHttp } from 'hooks/useHttp';
+
+import { BackLink, Loader, StyledTitle, MovieInfo } from 'components';
+
+import { getMovieDetailsById } from 'api';
+import { useHttp } from 'hooks';
 
 const MovieDetails = () => {
   const { id } = useParams();

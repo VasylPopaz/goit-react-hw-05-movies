@@ -1,8 +1,7 @@
-import { MoviesList, Loader } from 'components';
-import { getTrendMovies } from 'helpers/api';
-import { useHttp } from 'hooks/useHttp';
-//
-import { StyledTitle } from 'components/Title/Title.styled';
+import { MoviesList, Loader, StyledTitle } from 'components';
+
+import { getTrendMovies } from 'api';
+import { useHttp } from 'hooks';
 
 const Home = () => {
   const { data: movies, error, isLoading } = useHttp(getTrendMovies);

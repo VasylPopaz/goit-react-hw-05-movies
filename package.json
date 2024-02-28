@@ -1,8 +1,8 @@
 {
-  "name": "movies-routing-react",
+  "name": "react-movies-routing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://VasylPopaz.github.io/movies-routing-react/",
+  "homepage": "https://VasylPopaz.github.io/react-movies-routing/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",

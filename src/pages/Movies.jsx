@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
-//
-import { MoviesList, Searchbar } from 'components';
-import { getMovieByQuery } from 'helpers/api';
-//
-import { StyledTitle } from 'components/Title/Title.styled';
+
+import { MoviesList, Searchbar, StyledTitle } from 'components';
+
+import { getMovieByQuery } from 'api';
 
 const Movies = () => {
   const [movies, setMovies] = useState(null);

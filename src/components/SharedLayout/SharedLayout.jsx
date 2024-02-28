@@ -1,10 +1,15 @@
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
-//
-import { StyledHeader, StyledNav, StyledNavLink } from './SharedLayout.styled';
-import { Container, Loader } from 'components';
 
-const SharedLayout = () => {
+import {
+  Container,
+  Loader,
+  StyledHeader,
+  StyledNav,
+  StyledNavLink,
+} from 'components';
+
+export const SharedLayout = () => {
   return (
     <>
       <StyledHeader>
@@ -21,5 +26,3 @@ const SharedLayout = () => {
     </>
   );
 };
-
-export default SharedLayout;

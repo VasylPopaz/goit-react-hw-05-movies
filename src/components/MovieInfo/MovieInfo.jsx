@@ -1,15 +1,16 @@
 import {
+  StyledTitle,
+  StyledLink,
   AdditionalInfoList,
   AdditionalInfoTitle,
   AdditionalInfowrapper,
   InfoWrapper,
   StyledContainer,
-} from './MovieInfo.styled';
-import { StyledTitle, StyledLink } from 'components';
+} from 'components';
 
-import defaultPosterImg from 'images/poster.jpeg';
+import defaultPosterImg from 'assets/images/poster.jpeg';
 
-const MovieInfo = ({ selectedMovie }) => {
+export const MovieInfo = ({ selectedMovie }) => {
   if (!Object.keys(selectedMovie).length) return;
 
   const {
@@ -59,5 +60,3 @@ const MovieInfo = ({ selectedMovie }) => {
     </>
   );
 };
-
-export default MovieInfo;
