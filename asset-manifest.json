@@ -1,21 +1,17 @@
 {
   "files": {
-    "main.css": "/movies-routing-react/static/css/main.0a822873.css",
-    "main.js": "/movies-routing-react/static/js/main.bbb4a81b.js",
-    "static/js/549.01e6eaa2.chunk.js": "/movies-routing-react/static/js/549.01e6eaa2.chunk.js",
-    "static/js/766.b02299ef.chunk.js": "/movies-routing-react/static/js/766.b02299ef.chunk.js",
-    "static/js/779.0fb4bff5.chunk.js": "/movies-routing-react/static/js/779.0fb4bff5.chunk.js",
-    "static/media/poster.jpeg": "/movies-routing-react/static/media/poster.74c84eff3584e077098d.jpeg",
-    "static/media/oscar-award.jpg": "/movies-routing-react/static/media/oscar-award.bc80953a77f5f09da1e5.jpg",
-    "index.html": "/movies-routing-react/index.html",
-    "main.0a822873.css.map": "/movies-routing-react/static/css/main.0a822873.css.map",
-    "main.bbb4a81b.js.map": "/movies-routing-react/static/js/main.bbb4a81b.js.map",
-    "549.01e6eaa2.chunk.js.map": "/movies-routing-react/static/js/549.01e6eaa2.chunk.js.map",
-    "766.b02299ef.chunk.js.map": "/movies-routing-react/static/js/766.b02299ef.chunk.js.map",
-    "779.0fb4bff5.chunk.js.map": "/movies-routing-react/static/js/779.0fb4bff5.chunk.js.map"
+    "main.css": "/react-movies-routing/static/css/main.0a822873.css",
+    "main.js": "/react-movies-routing/static/js/main.6672663c.js",
+    "static/js/884.5b1c02b6.chunk.js": "/react-movies-routing/static/js/884.5b1c02b6.chunk.js",
+    "static/media/poster.jpeg": "/react-movies-routing/static/media/poster.74c84eff3584e077098d.jpeg",
+    "static/media/oscar-award.jpg": "/react-movies-routing/static/media/oscar-award.bc80953a77f5f09da1e5.jpg",
+    "index.html": "/react-movies-routing/index.html",
+    "main.0a822873.css.map": "/react-movies-routing/static/css/main.0a822873.css.map",
+    "main.6672663c.js.map": "/react-movies-routing/static/js/main.6672663c.js.map",
+    "884.5b1c02b6.chunk.js.map": "/react-movies-routing/static/js/884.5b1c02b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a822873.css",
-    "static/js/main.bbb4a81b.js"
+    "static/js/main.6672663c.js"
   ]
 }
